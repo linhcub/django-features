@@ -1,0 +1,50 @@
+# .gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.egg-info/
+*.eggs
+*.sdist
+*.wheel
+*.prof
+
+# Virtual environment
+venv/
+
+# IDEs
+.idea/
+.vscode/
+
+# Docker
+Dockerfile
+.dockerignore
+*.env
+
+# Logs
+logs/
+*.log
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Database
+*.db
+*.sqlite3
