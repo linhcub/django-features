@@ -11,4 +11,4 @@ RUN pip install -r requirements.txt
 
 COPY . /app
 
-CMD ["gunicorn", "mysite.wsgi:application", "--bind", "0.0.0.0:8000", "--workers", "3"]
+CMD ["gunicorn", "aicore.wsgi:application", "--bind", "0.0.0.0:8000", "--workers", "3"]
