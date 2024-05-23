@@ -25,7 +25,6 @@ venv/
 .vscode/
 
 # Docker
-Dockerfile
 .dockerignore
 *.env
 
